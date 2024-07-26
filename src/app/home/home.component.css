@@ -1,0 +1,57 @@
+
+#contenedorPadre{
+    width: 96%;
+    height: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+
+}
+
+#contenedorImagen {
+    width: 50%;
+    height:100%;
+    
+    float: left;
+    text-align: center;
+  
+}
+
+
+#contenedorTexto{
+    
+    width: 50%;
+    height: 100%;
+    float: left;
+    font-style: italic;
+    font-size: large;
+    color:dimgrey;
+   
+}
+
+#fotoPedro{
+    width: 80%;
+    border-radius: 40px;
+   
+}
+
+/* Media Query para pantallas más pequeñas como celulares */
+@media (max-width: 992px) {
+    #contenedorPadre {
+        flex-direction: column; /* Apilar los elementos verticalmente */
+    }
+
+    #contenedorImagen {
+        width: 100%;
+    }
+
+    #contenedorTexto {
+        margin: 50px;
+        width: 100%;
+        margin-top: 20px; /* Espacio adicional entre la imagen y el texto */
+        
+    }
+
+    #fotoPedro {
+        border-radius: 0; /* Quitar el radio de borde en pantallas pequeñas si es necesario */
+    }
+}

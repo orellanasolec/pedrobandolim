@@ -1,0 +1,29 @@
+.poem-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #babc4d;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color:dimgrey;
+    margin-top: 10px;
+  }
+  
+  .poem-container p {
+    font-family: 'Georgia', serif;
+    font-size: 1.2em;
+    line-height: 1.6;
+    white-space: pre-line; /* Preserva los saltos de línea */
+  }
+  
+  @media (max-width: 600px) {
+    .poem-container {
+      margin: 20px;
+      padding: 10px;
+      font-size: 1em;
+    }
+      .poem-container p {
+        text-align: center; /* Centra el texto de los párrafos */
+      }
+    }
