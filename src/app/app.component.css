@@ -9,13 +9,15 @@
 
 .navbar a{
     color:dimgray;
-    transition: color 0.3s ease, font-size 0.3s ease;
+   
     font-size: 1rem;
+    transition: color 1s, transform 0.3s;
 }
 
 .navbar a:hover {
     color:rgba(148, 148, 9, 0.848);
-    font-size: 1.1em;
+    transform:translateY(-2px);
+  
 }
 
 .navbar-brand{

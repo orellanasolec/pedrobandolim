@@ -4,28 +4,47 @@
       flex-wrap: wrap;
       gap: 20px; 
       padding-left:10px;
+   
+
     }
   
     .column {
+     
+      display: flex;
+      justify-content: center;  
+      align-items: center;      
+      text-align: center;  
       flex: 1 1 0;
       max-width: calc(25% - 20px);
       background-color: #efefefc7;
       padding: 20px;
       box-sizing: border-box;
       color:rgb(187, 187, 187);
+      font-style: italic;
+      font-size: large;
+      color:dimgrey;
+    background-image: url('/pedroDoBandolim/assets/piano.png');
+      background-repeat: no-repeat;
+      background-position: center;   
+      background-size: contain;   
+      height: 200px;
+    
+      
     }
 
 
     .column .bi-youtube {
-        fill: rgb(255, 140, 140) !important;
+        fill: rgb(255, 69, 69) !important;
+          align-items: center; 
+      
     }
    
     .column .bi-facebook{
-        fill:#7cb5ff !important;
+        fill:#328bff !important;
     }
 
     .column .bi-instagram {
-        fill: #bc7ce6 !important;
+        fill: #bb55ff !important;
       }
 
       .column:hover{
@@ -39,6 +58,7 @@
         width: 50px; 
         height: 50px;
         fill: #8b8b8b; 
+        align-items: center;
       }
 
 a{
@@ -50,6 +70,15 @@ a{
         flex: 1 1 100%; /* Cada columna ocupa el 100% del ancho en dispositivos pequeños */
         max-width: calc(100% - 20px); /* Ajuste de máxima anchura */
         margin-bottom: -12px;
+        height: 135px;
+    }
+    .column svg{
+      width:30px;
+      height: 30px;
     }
     
+}
+
+.overflow-hidden {
+  overflow-y: hidden;
 }
